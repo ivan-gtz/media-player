@@ -1,16 +1,21 @@
 {
-  "name": "platzi-media-player",
+  "name": "javascript-profesional",
   "version": "1.0.0",
-  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
-  "license": "MIT",
-  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "description": "profundizando en el lenguaje de javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-gtz/media-player.git"
+  },
   "keywords": [
     "platzi"
   ],
   "scripts": {
-    "start": "live-server"
+    "start" : "live-server"
   },
-  "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-gtz/media-player/issues"
+  },
+  "homepage": "https://github.com/ivan-gtz/media-player#readme"
 }
