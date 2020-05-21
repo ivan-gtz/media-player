@@ -32,6 +32,10 @@ main {
   width: 100%;
   margin: 0 auto;
 }
+.container > div {
+  display: flex;
+  justify-content: space-around;
+}
 
 .movie {
   width: 100%;
