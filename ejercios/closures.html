@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closures</title>
+    <link rel="shortcut icon" href="#" />
+
+  </head>
+  <body>
+    <a href="/ejercios/">Go back</a>
+    <p><em>Abre la consola</em></p>
+    <script>
+      //Closures
+      //printColor
+      //FIXME:IIFE
+    // (function() {
+    //   let color = 'green';
+
+    //   function printColor() {
+    //     console.log(color)
+    //   }
+    //   printColor();
+    // })();
+    // TODO:Funciones que regresan funciones
+    // function makeColorPrinter(color) {
+    //   let colorMessage = `The color is ${color}`;
+
+    //   return function () {
+    //     console.log(colorMessage)
+    //   }
+    // }
+    // let greenColorPrinter = makeColorPrinter("green");
+    // console.log(greenColorPrinter());
+    // FIXME:variables "privadas"
+    // const counter = {
+    //   count: 3
+    // }
+    function makeCounter (n) {
+      let count = n;
+
+      return {
+        increase : function () {
+          count = count + 1;
+        }, 
+        decrease : function () {
+          count = count - 1;
+        }, 
+        getCount : function () {
+          return count;
+        },
+      }
+    }
+    let counter = makeCounter(7);
+
+    console.log('The count is:', counter.getCount());
+    counter.increase();
+    console.log('The count is:', counter.getCount());
+    counter.decrease();
+    counter.decrease();
+    counter.decrease();
+    counter.decrease();
+    console.log('The count is:', counter.getCount());
+    console.log('The count is:', counter.getCount());
+    </script>
+  </body>
+</html>
