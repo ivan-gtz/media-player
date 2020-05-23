@@ -27,7 +27,7 @@
       }
       const handler = {
         get(obj, prop) {
-          if(prop in obj) {
+            if(prop in obj) {
             return obj[prop]
           }
           const suggestion = Object.keys(obj).find(key => {
