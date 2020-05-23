@@ -10,12 +10,16 @@
     "platzi"
   ],
   "scripts": {
-    "start" : "live-server"
+    "start": "live-server"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ivan-gtz/media-player/issues"
   },
-  "homepage": "https://github.com/ivan-gtz/media-player#readme"
+  "homepage": "https://github.com/ivan-gtz/media-player#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "live-server": "^1.2.1"
+  }
 }
