@@ -10,16 +10,20 @@
     "platzi"
   ],
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivan-gtz/media-player/issues"
   },
   "homepage": "https://github.com/ivan-gtz/media-player#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4",
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.3"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
